@@ -1,4 +1,4 @@
-package fullofinspiration.com.github.Tool;
+package fullofinspiration.com.github.EasyFactory;
 
 public class OperatorDiv implements Operator {
     @Override

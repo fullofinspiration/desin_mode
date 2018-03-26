@@ -1,11 +1,8 @@
-package fullofinspiration.com.github;
-
-import fullofinspiration.com.github.Tool.Operator;
-import fullofinspiration.com.github.Tool.OperatorFacotry;
+package fullofinspiration.com.github.EasyFactory;
 
 import java.util.Scanner;
 
-public class CalculatorTool {
+public class CalculatorToolMain {
     public static void main(String[] args) {
         double numberA;
         double numberB;
