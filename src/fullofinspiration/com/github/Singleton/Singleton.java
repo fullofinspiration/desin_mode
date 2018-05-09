@@ -13,9 +13,9 @@ public class Singleton {
     public Singleton() {
 
     }
-    public volatile Singleton singleton = null;
+    public static volatile Singleton singleton = null;
 
-    public Singleton getSingleton() {
+    public static Singleton getSingleton() {
         if (singleton == null) {
             synchronized (Singleton.class) {
                 singleton = new Singleton();
